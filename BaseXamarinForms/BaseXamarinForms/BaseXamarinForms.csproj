@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <Configurations>Debug;Release;Debug_AndroidOnly</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AppCenter" Version="5.0.2" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="5.0.2" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="5.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2578" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.5" />
+  </ItemGroup>
+</Project>
